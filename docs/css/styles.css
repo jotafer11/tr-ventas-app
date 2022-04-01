@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #383444;
+}
+
+/*=============================================
+=            NAVBAR         =
+=============================================*/
+
+.navbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #212529;
+    transition: 0.4s;
+}
+
+table {
+  width: 90%;
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+.dropdown-menu {
+    background-color: #212529;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #ffffff26;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+
+/* NAVBAR */
+
+.active-nav {
+    margin-left: 0;
+}
+
+
+/* Main Section */
+
+
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    /* color: #fff; */
+    /* border-color: #212529; */
+    color: #dee2e6;
+    border-color: #dee2e6;
+}
+
+.avatar {
+    height: 189px;
+    width: 301px;
+    border-radius: 10px;
+}
+
+
+h1, h2, h5, li, p {
+    color: #dee2e6;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+
+/* BODY */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  justify-content: center;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  padding: 25px 50px 75px;
+}
+
+.wb {
+    border: 2px solid transparent; 
+}
+
+.min {
+    max-width: 900px;
+}
+
+
+
+/*=============================================
+=            MONTH MENÚ         =
+=============================================*/
+
+.card {
+    background-color: #383444;
+    border: 1px solid rgba(222,226,230,0.7);
+}
+
+
+li {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.tab-content {
+    margin-top: 10px;
+    color: #dee2e6;
+}
+
+#MyChart {
+    color:#dee2e6;
+}
+
+a {
+    color:#dee2e6;
+    text-decoration: none;
+    font-weight: bold;
+    cursor:  pointer;
+}
+
+a:hover {
+    color: #F44336;
+}
+
+table {
+    width: 70%;
+    border-spacing: 2px;  
+}
+
+table, th, td {  
+    border: 1px solid #dee2e6;
+
+}
+
+/* ------------------------- */
+/* MONTH TABLE */
+/* ------------------------- */
+
+#month-table th, td {
+    padding: .60rem;      
+    text-align: center; 
+    vertical-align: middle;  
+}
+
+.obj-th {
+   width: 50%;
+}
+
+.report {
+    text-align: center;
+}
+
+#total {
+    margin-right: 280px;
+}
+
+
+

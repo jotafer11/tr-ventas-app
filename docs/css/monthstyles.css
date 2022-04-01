@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #383444;
+}
+
+/*=============================================
+=            NAVBAR         =
+=============================================*/
+
+.navbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #212529;
+    transition: 0.4s;
+}
+
+.nav-link {
+    font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+.dropdown-menu {
+    background-color: #212529;
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #ffffff26;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+
+
+.month {
+  width: 80%;
+  max-width: 800px;
+  justify-content: center;
+
+}
+
+
+
+/* NAVBAR */
+
+.active-nav {
+    margin-left: 0;
+}
+
+
+/* Main section */
+
+
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    /* color: #fff; */
+    /* border-color: #212529; */
+    color: #dee2e6;
+    border-color: #dee2e6;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    height: 189px;
+    width: 301px;
+    border-radius: 10px;
+}
+
+
+h1, h2, h3 {
+    color: #dee2e6;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+#menu-btn:focus {
+    box-shadow: 0 0 0 0.25rem #7952b344;
+}
+
+/* MONTH TABLE SECTION */
+
+/** Tabla */
+
+table {
+
+    background-color: transparent;  
+    table-layout: fixed;  
+}
+
+.table td, .table th {
+    font-size: 12px;
+}
+
+.tra {
+    background-color: #383444;
+}
+
+tbody {
+    margin-bottom: 4rem;        
+}
+
+table th, table td { 
+    overflow: hidden; 
+}
+
+
+/* Cabeceras tabla */
+
+
+.t-short {
+    width: 10%;
+}
+
+
+.t-short-hf {
+    color: #dee2e6;     
+    width: 15%;
+}
+
+/*Descripcion */
+.t-long-h {
+    color: #dee2e6;    
+    width: 70%;
+}
+
+.t-short-h {
+    color: yellow;
+    width: 40%;
+}
+
+.t-short-htr {
+    color: red;
+    width: 40%;
+}
+
+.t-short-u {
+    color: #dee2e6;
+    width: 10%;
+}
+
+
+.t-short-hacc {
+    color: #dee2e6;
+    width: 30%;
+}
+
+
+
+/* CONTENIDO TABLA */
+
+.t-short-fact {
+    width: 15%;
+}
+
+
+/*Descripcion */
+
+.t-long-t {
+    width: 70%;
+}
+
+
+/* 4 Columnas de 20*/
+
+
+.t-short-mt {
+    width: 28%;
+}
+
+
+/* --------------- */
+
+
+
+.th-u {
+    color: #dee2e6;
+}
+
+.t-short-ut {
+    width: 10%;    
+}
+
+
+
+
+
+.t-short2 {
+   width: 20%;
+}
+
+
+.warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+
+.success {
+    color: #155724; 
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+
+
+/** Modal */
+
+.btn {
+    margin: 2px;
+}
+
+
+#succ, #sdelete {
+    cursor: pointer;
+}  
